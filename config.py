@@ -115,6 +115,10 @@ available_setting = {
     "hot_reload": False,  # 是否开启热重载
     # wechaty的配置
     "wechaty_puppet_service_token": "",  # wechaty的token
+    # coze的配置
+    "coze_api_key": "",
+    "coze_api_base":"https://api.coze.com/open_api/v2/chat",
+    "coze_bot_id":"",
     # wechatmp的配置
     "wechatmp_token": "",  # 微信公众平台的Token
     "wechatmp_port": 8080,  # 微信公众平台的端口,需要端口转发到80或443
